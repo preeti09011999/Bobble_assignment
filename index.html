@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+
+<script src="auth.js"></script>
+    <nav class="navbar navbar-light">
+        <a class="navbar-brand" href="#"><img class="navbar-logo" src="./images/index.png"></a>
+    </nav>
+    <!-- login page -->
+    <section class="container-fluid mt-5">
+        <section class="row justify-content-center">
+          <section class="col-12 col-sm-6 col-md-4">
+            <form class="form-container">
+            <div class="form-group">
+              <p class="text-sm-center head-top font-weight-bold"> SIGN UP</p>
+              <p class="text-sm-center account">Create your account</p>
+              <p class="text-sm-center signup-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="form-group">
+                <div class="buttons-signup">
+                    <div class="google-btn"><button type="button" class="btn btn-google"><img class="btn-img" src="./images/google_icon.png">Sign up with Google</button></div>
+                    <div class="facebook-btn"><button type="button" class="btn btn-facebook" scope="public_profile,email"
+                        onlogin="checkLoginState();"><img class="btn-img" src="./images/facebook_icon.png">Sign up with Facebook</button></div>
+                </div>
+                
+            </div>
+            <div class="form-group separator">
+                <div class="hr-left"><hr/></div>
+                <div class="separator-text">or</div>
+                <div class="hr-right"><hr/></div>
+            </div>
+            <div class="form-group">
+               <input type="text" class="input-sizing form-control input-sm " id="InputFirstName" placeholder="First Name">
+            </div>
+            <div class="form-group">
+                <input type="text" class="input-sizing  form-control input-sm" id="InputLastName" placeholder="Last Name">
+             </div>
+             <div class="form-group">
+                <input type="email" class="input-sizing  form-control input-sm" id="InputEmail" placeholder="Email Address">
+             </div>
+            <div class="form-group">
+              <div class="pass-input">
+                  <i class="fa fa-eye icons" onclick="eyeToggler(this)"></i>  
+                  <input type="password" class="input-sizing form-control input-sm input-password" id="InputPassword1" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-footer"><div>
+                <p class="footer-title"> By clicking Sign Up, you agree to our<a href="#"> Terms of Use </a> and our <a href="#">Privacy Policy</a></p>  
+                <button type="submit" class="input-sizing btn btn-primary btn-block">SIGN UP</button>
+            </div>
+            </form>
+          </section>
+        </section>
+      </section>
+      <br>
+      <br>
+      <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,199 @@
+.navbar{
+    box-shadow: 6px 5px 5px #aaaaaa;
+}
+.navbar-logo{
+    height: 4rem;
+    width: 14rem;
+}
+form{
+    border: 1px solid lightgray;
+}
+
+.form-container{
+	padding: 30px;
+}
+.head-top{
+    margin-top: -15px;
+    text-align: center;
+    font-size: 0.7rem;
+    color: gray;
+}
+.account{
+    font-size: 1.3rem;
+    color:#585858;
+    margin-top: 2rem;
+    text-align: center;
+}
+.signup-title{
+    font-size: 0.8rem;
+    margin-top: -0.8rem;
+    color: gray;
+    text-align: center;
+}
+.footer-title{
+    font-size: 0.68rem;
+    text-align: center;
+}
+.input-sizing{
+    font-size: 0.8rem;
+}
+.buttons-signup{
+    display: flex;
+}
+.google-btn{
+    width: 50%;
+}
+.facebook-btn{
+    width:50%;
+}
+.btn-google{
+    font-size: 0.7rem;
+    width: 94%;
+    background-color: white;
+    -moz-box-shadow: 0 0 3px rgb(73, 66, 66);
+    -webkit-box-shadow: 0 0 3px rgb(73, 66, 66);
+    box-shadow: 0 0 3px rgb(73, 66, 66);
+    
+}
+.btn-facebook{
+    font-size: 0.7rem;
+    width: 98%;
+    background-color: white;
+    -moz-box-shadow: 0 0 3px rgb(73, 66, 66);
+    -webkit-box-shadow: 0 0 3px rgb(73, 66, 66);
+    box-shadow: 0 0 3px rgb(73, 66, 66);
+}
+.btn-img{
+    width: 10%;
+    height: 100%;
+    margin-right: 9px;
+}
+.hr-left{
+    float:left; 
+    width: 44%;
+}
+.hr-right{
+    float: right;
+    width:44%;
+}
+.separator{
+    display: flex;
+}
+.separator-text{
+    color: gray;
+    text-align: center;
+    width: 10%;
+}
+
+.pass-input i{
+    position: absolute;
+    margin-left: 72%;
+    margin-top: 1.7%;
+    cursor: pointer;
+  user-select: none;
+}
+@media screen and (min-width: 601px) {
+    .signup-title {
+      font-size: 0.8rem;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+
+  @media only screen and (max-width: 600px) {
+    .signup-title {
+        font-size: 0.6rem;
+      }
+      .footer-title{
+          font-size: 2vw;
+          text-align: center;
+      }
+      .btn-img{
+          margin-right: 4px;
+      }
+      .btn-google{
+          font-size:2.3vw;
+      }
+      .btn-facebook{
+          font-size:2.3vw;
+      }
+      .separator-text{
+          font-size: 0.8rem;
+          margin-top: 5px;
+      }
+      .pass-input i{
+          position: absolute;
+          float: right;
+          margin-left: 71%;
+          margin-top:1.9%;
+      }
+  }
+  @media only screen and (max-width: 300px) {
+    .pass-input i {
+        position: absolute;
+        float: right;
+        margin-left: 59%;
+        margin-top: 1.9%;
+    }
+    .footer-title{
+        font-size: 3vw;
+    }
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .pass-input i{
+        position: absolute;
+        float: right;
+        margin-left: 55%;
+        margin-top:1.9%;
+    }
+    .btn-google {
+        font-size: 1.3vw;
+    }
+    .btn-facebook{
+        font-size: 1.2vw;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .pass-input i{
+        position: absolute;
+        float: right;
+        margin-left: 60%;
+        margin-top:1.9%;
+    }
+    .btn-google {
+        font-size: 0.85vw;
+    }
+    .btn-facebook{
+        font-size: 0.84vw;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .pass-input i{
+        position: absolute;
+        float: right;
+        margin-left: 60%;
+        margin-top:1.9%;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .pass-input i{
+        position: absolute;
+        float: right;
+        margin-left: 67%;
+        margin-top:1.9%;
+    }
+    .pass-input i {
+        position: absolute;
+        float: right;
+        margin-left: 69%;
+        margin-top: 1.9%;
+    }
+  }
